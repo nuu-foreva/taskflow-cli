@@ -9,7 +9,7 @@ description = "A small, well-tested command-line task manager written in pure Py
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
-authors = [{ name = "Raji Oluwatofarati" }]
+authors = [{ name = "Oluwatofarati Raji" }]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
