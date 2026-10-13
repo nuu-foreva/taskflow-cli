@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "taskflow-cli"
+version = "1.0.0"
+description = "A small, well-tested command-line task manager written in pure Python."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Raji Oluwatofarati" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Console",
+]
+
+[project.scripts]
+taskflow = "taskflow.cli:main"
+
+[tool.setuptools]
+packages = ["taskflow"]
