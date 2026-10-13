@@ -21,7 +21,7 @@ Python 3.9 or newer. Nothing else to install.
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/taskflow-cli.git
+git clone https://github.com/<nuu-foreva>/taskflow-cli.git
 cd taskflow-cli
 
 python -m taskflow add "Finish portfolio README" -p high -t career -d 2030-01-01
